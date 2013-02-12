@@ -111,5 +111,5 @@ Vagrant::Config.run do |config|
   #   chef.validation_client_name = "ORGNAME-validator"
 
   # Enable shell provisioning
-  config.vm.provision :shell, :path => "scripts/vagrant/provision.sh"
+  config.vm.provision :shell, :path => "provision.sh"
 end
