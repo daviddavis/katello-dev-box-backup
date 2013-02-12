@@ -9,12 +9,12 @@ A virtual machine for developing Katello on any OS (Mac, Windows, Linux, etc)
 * rubygems and bundler
 * vagrant (optional, this will install it if you don't have it)
 
-## How to use this
+## Getting started
 
-First, clone this repo. Then cd into it and run bundle install. Then run:
+First, clone this repo. Then cd into it and run bundle install. Finally run:
 
 ```
 vagrant up
 ```
 
-"That's it?!" you ask. Yup, that's it!
+"That's it‽" you ask. Yup, that's it!
