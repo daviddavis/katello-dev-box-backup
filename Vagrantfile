@@ -13,15 +13,13 @@ Vagrant::Config.run do |config|
   ]
 
   # Every Vagrant virtual environment requires a box to build off of.
-  #config.vm.box = "f16-64-vbox"
-  config.vm.box = "f17-64-vbox"
+  config.vm.box = "fedora-19"
 
   config.vm.host_name = "katello"
 
   # The url from where the 'config.vm.box' box will be fetched if it
   # doesn't already exist on the user's system.
-  #config.vm.box_url = "https://dl.dropbox.com/u/29929/f16-64-vbox.box"
-  config.vm.box_url = "http://dl.dropbox.com/u/6002490/vagrant/beefymiracle64.box"
+  config.vm.box_url = "https://dl.dropboxusercontent.com/u/86066173/fedora-19.box"
 
   # check that virtualbox guest tools are installed and up to date
   config.vbguest.auto_update = true
