@@ -1,3 +1,2 @@
 .vagrant
-katello
-katello-cli
+katello*
